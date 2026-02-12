@@ -4,3 +4,22 @@
     time.sleep(0.8)
     print("   I love you   ")
     time.sleep(0.8)
+
+
+
+
+
+
+
+
+text = "I will give you a headline. Why wouldn't I use AI for this? I created one."
+
+words = text.split()
+word_count = len(words)
+unique_words = len(set(words))
+
+print("Word count:", word_count)
+print("Unique words:", unique_words)
+
+
+
